@@ -7,7 +7,7 @@ import {
   lightTheme,
   SupportedChainId,
   SwapWidget,
-} from '@uniswap/widgets'
+} from '@yumyumswap/widgets'
 import Row from 'components/Row'
 import { CHAIN_NAMES_TO_IDS } from 'constants/chains'
 import { useCallback, useEffect, useMemo, useState } from 'react'
@@ -122,7 +122,7 @@ function Fixture() {
   )
 
   // If framed in a different origin, only display the SwapWidget, without any chrome.
-  // This is done to faciliate iframing in the documentation (https://docs.uniswap.org).
+  // This is done to faciliate iframing in the documentation (https://docs.yumyumtoken.com).
   if (!window.frameElement) return widget
 
   return (

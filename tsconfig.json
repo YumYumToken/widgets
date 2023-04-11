@@ -2,7 +2,7 @@
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
     "paths": {
-      "@uniswap/widgets": ["index"]
+      "@yumyumswap/widgets": ["index"]
     },
     "types": ["jest", "jest-extended"]
   },

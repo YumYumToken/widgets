@@ -61,7 +61,7 @@ export type ChainInfoMap = { readonly [chainId: number]: L1ChainInfo | L2ChainIn
 const CHAIN_INFO: ChainInfoMap = {
   [SupportedChainId.MAINNET]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.yumyumtoken.com/',
     explorer: 'https://etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Ethereum',
@@ -71,7 +71,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [SupportedChainId.RINKEBY]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.yumyumtoken.com/',
     explorer: 'https://rinkeby.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Rinkeby',
@@ -81,7 +81,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [SupportedChainId.ROPSTEN]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.yumyumtoken.com/',
     explorer: 'https://ropsten.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Ropsten',
@@ -91,7 +91,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [SupportedChainId.KOVAN]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.yumyumtoken.com/',
     explorer: 'https://kovan.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Kovan',
@@ -101,7 +101,7 @@ const CHAIN_INFO: ChainInfoMap = {
   },
   [SupportedChainId.GOERLI]: {
     networkType: NetworkType.L1,
-    docs: 'https://docs.uniswap.org/',
+    docs: 'https://docs.yumyumtoken.com/',
     explorer: 'https://goerli.etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
     label: 'Görli',

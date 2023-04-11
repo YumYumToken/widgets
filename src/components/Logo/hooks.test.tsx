@@ -7,7 +7,7 @@ import { useLogos } from './hooks'
 
 describe('useLogos', () => {
   const testCurrencyAssetsRepoUri =
-    'https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png'
+    'https://raw.githubusercontent.com/YumYumToken/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png'
 
   it('returns the uniswap-managed GH hosted URL first', () => {
     const logoURI = 'https://1inch.io/img/logo.png'
@@ -66,7 +66,7 @@ describe('useLogos', () => {
   })
 
   const nativeAssetsRepoUri =
-    'https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/info/logo.png'
+    'https://raw.githubusercontent.com/YumYumToken/assets/master/blockchains/ethereum/info/logo.png'
 
   it('returns local native uri first followed by assets repo native', () => {
     const native = nativeOnChain(SupportedChainId.MAINNET)

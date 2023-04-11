@@ -33,11 +33,11 @@ export function getAssetsRepoURI(asset: LogoTableInput): string | undefined {
   if (!networkName) return
 
   if (asset.isNative)
-    return `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/info/logo.png`
+    return `https://raw.githubusercontent.com/YumYumToken/assets/master/blockchains/${networkName}/info/logo.png`
 
   const checksummedAddress = isAddress(asset.address)
   return checksummedAddress
-    ? `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/assets/${checksummedAddress}/logo.png`
+    ? `https://raw.githubusercontent.com/YumYumToken/assets/master/blockchains/${networkName}/assets/${checksummedAddress}/logo.png`
     : undefined
 }
 
