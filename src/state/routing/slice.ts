@@ -12,7 +12,7 @@ import { transformQuoteToTradeResult } from './utils'
 
 const protocols: Protocol[] = [Protocol.V2, Protocol.V3, Protocol.MIXED]
 
-// routing API quote query params: https://github.com/Uniswap/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
+// routing API quote query params: https://github.com/YumYumToken/routing-api/blob/main/lib/handlers/quote/schema/quote-schema.ts
 const DEFAULT_QUERY_PARAMS = {
   protocols: protocols.map((p) => p.toLowerCase()).join(','),
 }

@@ -50,7 +50,7 @@ function getRouter(chainId: ChainId, provider: BaseProvider): AlphaRouter {
   let multicall2Provider
   if ([ChainId.POLYGON, ChainId.POLYGON_MUMBAI].includes(chainId)) {
     multicall2Provider = new UniswapMulticallProvider(chainId, provider, 375_000)
-    // See https://github.com/Uniswap/smart-order-router/blob/98c58bdee9981fd9ffac9e7d7a97b18302d5f77a/src/routers/alpha-router/alpha-router.ts#L464-L487
+    // See https://github.com/YumYumToken/smart-order-router/blob/98c58bdee9981fd9ffac9e7d7a97b18302d5f77a/src/routers/alpha-router/alpha-router.ts#L464-L487
     onChainQuoteProvider = new OnChainQuoteProvider(
       chainId,
       provider,

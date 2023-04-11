@@ -3,7 +3,7 @@ import type { SwapRoute } from '@yumyumswap/smart-order-router'
 import { QuoteResult, QuoteState, V2PoolInRoute, V3PoolInRoute } from 'state/routing/types'
 import { isExactInput } from 'utils/tradeType'
 
-// from routing-api (https://github.com/Uniswap/routing-api/blob/main/lib/handlers/quote/quote.ts#L243-L311)
+// from routing-api (https://github.com/YumYumToken/routing-api/blob/main/lib/handlers/quote/quote.ts#L243-L311)
 export function transformSwapRouteToGetQuoteResult({
   quote,
   quoteGasAdjusted,

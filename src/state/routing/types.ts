@@ -12,7 +12,7 @@ export enum TradeState {
   VALID,
 }
 
-// from https://github.com/Uniswap/routing-api/blob/main/lib/handlers/schema.ts
+// from https://github.com/YumYumToken/routing-api/blob/main/lib/handlers/schema.ts
 
 export type TokenInRoute = Pick<Token, 'address' | 'chainId' | 'symbol' | 'decimals'>
 

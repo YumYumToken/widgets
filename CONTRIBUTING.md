@@ -71,7 +71,7 @@ The following points should help guide your development:
 
 ## Publishing
 
-Releases are manually triggered [through the release workflow](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml).
+Releases are manually triggered [through the release workflow](https://github.com/YumYumToken/uniswap-interface/actions/workflows/release.yaml).
 
 In general, fixes and features should be created on a new branch from `main`.
 Use the automatic Vercel preview for the branch to collect feedback.  
