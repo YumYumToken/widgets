@@ -77,7 +77,6 @@ export default function SwapButton({ disabled }: { disabled: boolean }) {
         response.response.wait(1).then((receipt) => {
           setOldestValidBlock(receipt.blockNumber)
         })
-
       })
 
       // Only close the review modal if the swap submitted (ie no-throw).
