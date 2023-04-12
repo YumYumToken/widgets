@@ -95,7 +95,6 @@ const defaultBorderRadius = {
   large: 1.5,
   medium: 1,
   small: 0.75,
-  xsmall: 0.5,
 }
 
 export const defaultTheme = {
@@ -156,7 +155,6 @@ function toDefaultTheme(theme: Required<Theme>): DefaultTheme {
       large: clampNum(value.large),
       medium: clampNum(value.medium),
       small: clampNum(value.small),
-      xsmall: clampNum(value.xsmall),
     }
   }
 }

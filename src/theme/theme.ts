@@ -38,7 +38,6 @@ export type ThemeBorderRadius = {
   large: number
   medium: number
   small: number
-  xsmall: number
 }
 
 export type ZIndex = {
