@@ -130,6 +130,21 @@ export const USDC_BNB_CHAIN = new Token(
   'USDC',
   'USDC'
 )
+export const USDC_BASE_GOERLI_CHAIN = new Token(
+  SupportedChainId.BASE_GOERLI,
+  '0x50d701659571CdF44D21B5dA16460853FB52781A',
+  18,
+  'USDC',
+  'USDC'
+)
+export const USDT_BASE_GOERLI_CHAIN = new Token(
+  SupportedChainId.BASE_GOERLI,
+  '0x323b16B3f54fEB99b2053F7c419127FfB8B2917a',
+  18,
+  'USDC',
+  'USDC'
+)
+
 export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.MAINNET]: USDC_MAINNET,
   [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM,
@@ -145,6 +160,7 @@ export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.KOVAN]: USDC_KOVAN,
   [SupportedChainId.ROPSTEN]: USDC_ROPSTEN,
   [SupportedChainId.BNB]: USDC_BNB_CHAIN,
+  [SupportedChainId.BASE_GOERLI]: USDC_BASE_GOERLI_CHAIN,
 }
 export const DAI_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -489,6 +505,13 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     18,
     'WBNB',
     'Wrapped BNB'
+  ),
+  [SupportedChainId.BASE_GOERLI]: new Token(
+    SupportedChainId.BASE_GOERLI,
+    '0x4200000000000000000000000000000000000006',
+    18,
+    'WETH',
+    'Wrapped Ether'
   ),
 }
 

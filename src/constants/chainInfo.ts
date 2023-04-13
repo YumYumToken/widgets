@@ -1,3 +1,4 @@
+import baseLogo from 'assets/images/base.png'
 import ethereumLogoUrl from 'assets/images/ethereum-logo.png'
 import arbitrumLogoUrl from 'assets/svg/arbitrum_logo.svg'
 import bnbLogo from 'assets/svg/bnb-logo.svg'
@@ -236,6 +237,19 @@ const CHAIN_INFO: ChainInfoMap = {
     nativeCurrency: { name: 'BNB', symbol: 'BNB', decimals: 18 },
     color: '#F0B90B',
     backgroundColor: '#F0B90B',
+  },
+  [SupportedChainId.BASE_GOERLI]: {
+    networkType: NetworkType.L2,
+    blockWaitMsBeforeWarning: ms`10m`,
+    bridge: 'https://cbridge.celer.network/1/56',
+    docs: 'https://docs.base.org/',
+    explorer: 'https://goerli.basescan.org/',
+    infoLink: 'https://info.uniswap.org/#/base_goerli/',
+    label: 'Base Goerli',
+    logoUrl: baseLogo,
+    nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
+    color: '#35D07F',
+    backgroundColor: '#34d07f1f',
   },
 }
 

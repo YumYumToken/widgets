@@ -23,11 +23,13 @@ import {
   sETH2,
   SWISE,
   TRIBE,
+  USDC_BASE_GOERLI_CHAIN,
   USDC_BNB_CHAIN,
   USDC_MAINNET,
   USDC_POLYGON,
   USDT,
   USDT_ARBITRUM_ONE,
+  USDT_BASE_GOERLI_CHAIN,
   USDT_BNB_CHAIN,
   USDT_OPTIMISM,
   USDT_POLYGON,
@@ -91,6 +93,11 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDC_BNB_CHAIN,
     USDT_BNB_CHAIN,
     ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.BNB],
+  ],
+  [SupportedChainId.BASE_GOERLI]: [
+    ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.BASE_GOERLI],
+    USDC_BASE_GOERLI_CHAIN,
+    USDT_BASE_GOERLI_CHAIN,
   ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {
