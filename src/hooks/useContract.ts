@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
-import UniswapInterfaceMulticallJson from '@yumyumswap/contract-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
 import { useWeb3React } from '@web3-react/core'
+import UniswapInterfaceMulticallJson from '@yumyumswap/contract-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
 import ARGENT_WALLET_DETECTOR_ABI from 'abis/argent-wallet-detector.json'
 import EIP_2612 from 'abis/eip_2612.json'
 import ENS_PUBLIC_RESOLVER_ABI from 'abis/ens-public-resolver.json'

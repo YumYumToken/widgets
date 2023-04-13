@@ -4154,10 +4154,10 @@
     "@uniswap/v2-sdk" "^3.0.1"
     "@yumyumswap/swap-sdk" "^3.9.1"
 
-"@yumyumswap/smart-order-router@^3.10.3":
-  version "3.10.3"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-3.10.3.tgz#7e5365b9c5ce0ffa4dee21a0e1be3ca2d099c860"
-  integrity sha512-SqxYWKkdH009+FcgJyo8pQp/+MVzdJq/9Nmz8yy2wb7JX5qpomx33luYWYxQG2MugGrknv9rKXMaDjGUzwszVA==
+"@yumyumswap/smart-order-router@^3.10.4":
+  version "3.10.4"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-3.10.4.tgz#16da7a27fdf9cb8d692f37653918ba8008766137"
+  integrity sha512-7qzUJQSLc1jP9F4ZyGNlgUgO3e0xmnjvI+t2JImS7iPQCFCzWJ5XNC3/aR4egnYFwbL3g8nLisAlD333M2Fe1Q==
   dependencies:
     "@uniswap/default-token-list" "^2.0.0"
     "@uniswap/permit2-sdk" "^1.2.0"
@@ -4167,7 +4167,7 @@
     "@yumyumswap/swap-router-contracts" "^1.3.0"
     "@yumyumswap/swap-sdk" "^3.9.1"
     "@yumyumswap/universal-router" "^1.4.1"
-    "@yumyumswap/universal-router-sdk" "^1.5.1"
+    "@yumyumswap/universal-router-sdk" "^1.5.2"
     async-retry "^1.3.1"
     await-timeout "^1.1.1"
     axios "^0.21.1"
@@ -4207,10 +4207,10 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@yumyumswap/universal-router-sdk@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-1.5.1.tgz#fb7de5836f885f7bce4f040099ad7f6e52136630"
-  integrity sha512-jYKo4Jz/loZgW/FY4iCJ34mgFTRFSPV/46BzcNZO8NiKSHVuiPTGokj1dxpEZdsUF75b3JHuhEkKGFRacZw/cw==
+"@yumyumswap/universal-router-sdk@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-1.5.2.tgz#f5bed476771b6b99930cf4331d9b908b73a38a07"
+  integrity sha512-G0wJFyR7Cciaklj4f4HlD8Zi6ORIwl10Gjvo/nvJMthvwn4d0iPvm384vcfS5BF2VLiGt+ywuAtJk/vlV8Z27g==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
     "@uniswap/sdk-core" "^3.1.0"
