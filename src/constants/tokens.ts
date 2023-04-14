@@ -132,14 +132,14 @@ export const USDC_BNB_CHAIN = new Token(
 )
 export const USDC_BASE_GOERLI_CHAIN = new Token(
   SupportedChainId.BASE_GOERLI,
-  '0x50d701659571CdF44D21B5dA16460853FB52781A',
+  '0xCF29ec78Aa0E57beefAB81656ab7f698FD8CF566',
   18,
   'USDC',
   'USDC'
 )
 export const USDT_BASE_GOERLI_CHAIN = new Token(
   SupportedChainId.BASE_GOERLI,
-  '0x323b16B3f54fEB99b2053F7c419127FfB8B2917a',
+  '0xa5E88EbBbB0f08aeDf1933fcFB1BE1d657838CA3',
   18,
   'USDC',
   'USDC'
