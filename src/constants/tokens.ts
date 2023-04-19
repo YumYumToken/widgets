@@ -141,8 +141,8 @@ export const USDT_BASE_GOERLI_CHAIN = new Token(
   SupportedChainId.BASE_GOERLI,
   '0xa5E88EbBbB0f08aeDf1933fcFB1BE1d657838CA3',
   18,
-  'USDC',
-  'USDC'
+  'USDT',
+  'USDT'
 )
 
 export const USDC: { [chainId in SupportedChainId]: Token } = {

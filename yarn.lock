@@ -4154,10 +4154,10 @@
     "@uniswap/v2-sdk" "^3.0.1"
     "@yumyumswap/swap-sdk" "^3.9.1"
 
-"@yumyumswap/smart-order-router@^3.10.4":
-  version "3.10.4"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-3.10.4.tgz#16da7a27fdf9cb8d692f37653918ba8008766137"
-  integrity sha512-7qzUJQSLc1jP9F4ZyGNlgUgO3e0xmnjvI+t2JImS7iPQCFCzWJ5XNC3/aR4egnYFwbL3g8nLisAlD333M2Fe1Q==
+"@yumyumswap/smart-order-router@^3.10.6":
+  version "3.10.6"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-3.10.6.tgz#0a56c095f82d3634687b7f208689f042e63c5408"
+  integrity sha512-q1Askap5k5VV1igHzKgwljATRaMEW5ou98XeSrRsuicj46uTOhlN2yudFs4GwlgNh7IHaiS3ZdfpnBWP1Aatnw==
   dependencies:
     "@uniswap/default-token-list" "^2.0.0"
     "@uniswap/permit2-sdk" "^1.2.0"
