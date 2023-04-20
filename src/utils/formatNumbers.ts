@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Price } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Price } from '@yumyumswap/sdk-core'
 import { DEFAULT_LOCALE } from 'constants/locales'
 
 // Convert [CurrencyAmount] to number with necessary precision for price formatting.

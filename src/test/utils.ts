@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { CurrencyAmount, Token } from '@yumyumswap/sdk-core'
 import { FeeAmount, Pool, Route as RouteV3 } from '@yumyumswap/swap-sdk'
 
 // helper function to make amounts more readable

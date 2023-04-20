@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
 import { Placement } from '@popperjs/core'
 import { formatPriceImpact } from '@uniswap/conedison/format'
-import { Currency, CurrencyAmount } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount } from '@yumyumswap/sdk-core'
 import Row from 'components/Row'
 import Tooltip from 'components/Tooltip'
 import { loadingCss } from 'css/loading'

@@ -1,5 +1,5 @@
 import { BaseProvider } from '@ethersproject/providers'
-import { Currency, Token, TradeType } from '@uniswap/sdk-core'
+import { Currency, Token, TradeType } from '@yumyumswap/sdk-core'
 import { Trade } from '@yumyumswap/router-sdk'
 import type { ChainId } from '@yumyumswap/smart-order-router'
 import { QuoteType, RouterPreference } from 'hooks/routing/types'

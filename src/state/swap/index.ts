@@ -1,4 +1,4 @@
-import { Currency, TradeType } from '@uniswap/sdk-core'
+import { Currency, TradeType } from '@yumyumswap/sdk-core'
 import { FeeOptions } from '@yumyumswap/swap-sdk'
 import { SupportedChainId } from 'constants/chains'
 import { nativeOnChain } from 'constants/tokens'

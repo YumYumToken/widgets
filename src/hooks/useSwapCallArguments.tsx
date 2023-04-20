@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { SwapRouter } from '@yumyumswap/router-sdk'
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from '@yumyumswap/sdk-core'
 import { FeeOptions } from '@yumyumswap/swap-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { SWAP_ROUTER_ADDRESSES } from 'constants/addresses'

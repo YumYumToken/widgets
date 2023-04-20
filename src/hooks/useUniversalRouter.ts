@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { t } from '@lingui/macro'
 import { sendTransaction } from '@uniswap/conedison/provider/index'
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from '@yumyumswap/sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { FeeOptions, toHex } from '@yumyumswap/swap-sdk'
 import { SwapRouter, UNIVERSAL_ROUTER_ADDRESS } from '@yumyumswap/universal-router-sdk'

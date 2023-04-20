@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { Trans } from '@lingui/macro'
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from '@yumyumswap/sdk-core'
 import { FeeOptions } from '@yumyumswap/swap-sdk'
 import { useWeb3React } from '@web3-react/core'
 import useENS from 'hooks/useENS'

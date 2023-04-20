@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
 import { MaxAllowanceTransferAmount, PERMIT2_ADDRESS } from '@uniswap/permit2-sdk'
-import { CurrencyAmount } from '@uniswap/sdk-core'
+import { CurrencyAmount } from '@yumyumswap/sdk-core'
 import { UNIVERSAL_ROUTER_ADDRESS } from '@yumyumswap/universal-router-sdk'
 import PERMIT2_ABI from 'abis/permit2.json'
 import { Permit2 } from 'abis/types'

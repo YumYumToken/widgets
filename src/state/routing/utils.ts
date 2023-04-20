@@ -1,6 +1,6 @@
 import { MixedRouteSDK } from '@yumyumswap/router-sdk'
-import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core'
-import { Pair, Route as V2Route } from '@uniswap/v2-sdk'
+import { Currency, CurrencyAmount, Token } from '@yumyumswap/sdk-core'
+import { Pair, Route as V2Route } from '@yumyumswap/v2-sdk'
 import { FeeAmount, Pool, Route as V3Route } from '@yumyumswap/swap-sdk'
 import { isPolygonChain } from 'constants/chains'
 import { nativeOnChain } from 'constants/tokens'

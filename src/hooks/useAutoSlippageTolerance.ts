@@ -1,6 +1,6 @@
 import { MixedRoute, partitionMixedRouteByProtocol, Protocol } from '@yumyumswap/router-sdk'
-import { Currency, CurrencyAmount, Percent, Token } from '@uniswap/sdk-core'
-import { Pair } from '@uniswap/v2-sdk'
+import { Currency, CurrencyAmount, Percent, Token } from '@yumyumswap/sdk-core'
+import { Pair } from '@yumyumswap/v2-sdk'
 import { Pool } from '@yumyumswap/swap-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { SUPPORTED_GAS_ESTIMATE_CHAIN_IDS } from 'constants/chains'

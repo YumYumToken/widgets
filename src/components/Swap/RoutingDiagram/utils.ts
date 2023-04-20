@@ -1,5 +1,5 @@
 import { Protocol } from '@yumyumswap/router-sdk'
-import { Currency, Percent } from '@uniswap/sdk-core'
+import { Currency, Percent } from '@yumyumswap/sdk-core'
 import { FeeAmount } from '@yumyumswap/swap-sdk'
 import { InterfaceTrade } from 'state/routing/types'
 import { getFeeAmount } from 'utils/prices'

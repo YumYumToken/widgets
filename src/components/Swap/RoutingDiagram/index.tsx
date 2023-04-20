@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
 import { formatCurrencyAmount, NumberType } from '@uniswap/conedison/format'
 import { Protocol } from '@yumyumswap/router-sdk'
-import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Token } from '@yumyumswap/sdk-core'
 import { FeeAmount } from '@yumyumswap/swap-sdk'
 import { ReactComponent as DotLine } from 'assets/svg/dot_line.svg'
 import Column from 'components/Column'

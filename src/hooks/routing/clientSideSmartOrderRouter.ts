@@ -1,5 +1,5 @@
 import { BaseProvider } from '@ethersproject/providers'
-import { BigintIsh, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core'
+import { BigintIsh, CurrencyAmount, Token, TradeType } from '@yumyumswap/sdk-core'
 import type { AlphaRouterConfig } from '@yumyumswap/smart-order-router'
 // This file is lazy-loaded, so the import of smart-order-router is intentional.
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
