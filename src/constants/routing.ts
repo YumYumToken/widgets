@@ -11,6 +11,7 @@ import {
   DAI_ARBITRUM_ONE,
   DAI_OPTIMISM,
   DAI_POLYGON,
+  DAI_PULSE,
   ETH2X_FLI,
   FEI,
   FRAX,
@@ -27,16 +28,20 @@ import {
   USDC_BNB_CHAIN,
   USDC_MAINNET,
   USDC_POLYGON,
+  USDC_PULSE,
   USDT,
   USDT_ARBITRUM_ONE,
   USDT_BASE_GOERLI_CHAIN,
   USDT_BNB_CHAIN,
   USDT_OPTIMISM,
   USDT_POLYGON,
+  USDT_PULSE,
   WBTC,
   WBTC_ARBITRUM_ONE,
   WBTC_OPTIMISM,
+  WBTC_PULSE,
   WETH_POLYGON,
+  WETH_PULSE,
   WRAPPED_NATIVE_CURRENCY,
 } from './tokens'
 
@@ -98,6 +103,14 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.BASE_GOERLI],
     USDC_BASE_GOERLI_CHAIN,
     USDT_BASE_GOERLI_CHAIN,
+  ],
+  [SupportedChainId.PULSE]: [
+    ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.PULSE],
+    USDC_PULSE,
+    USDT_PULSE,
+    DAI_PULSE,
+    WBTC_PULSE,
+    WETH_PULSE 
   ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {

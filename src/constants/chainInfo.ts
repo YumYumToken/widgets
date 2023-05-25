@@ -1,5 +1,6 @@
 import baseLogo from 'assets/images/base.png'
 import ethereumLogoUrl from 'assets/images/ethereum-logo.png'
+import pulseLogo from 'assets/images/pulse.svg'
 import arbitrumLogoUrl from 'assets/svg/arbitrum_logo.svg'
 import bnbLogo from 'assets/svg/bnb-logo.svg'
 import celoLogo from 'assets/svg/celo_logo.svg'
@@ -244,12 +245,24 @@ const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://cbridge.celer.network/1/56',
     docs: 'https://docs.base.org/',
     explorer: 'https://goerli.basescan.org/',
-    infoLink: 'https://info.uniswap.org/#/base_goerli/',
+    infoLink: 'https://info.yumyumswap.com/#/base_goerli/',
     label: 'Base Goerli',
     logoUrl: baseLogo,
     nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
     color: '#35D07F',
     backgroundColor: '#34d07f1f',
+  },
+  [SupportedChainId.PULSE]: {
+    networkType: NetworkType.L1,
+    bridge: 'https://bridge.pulsechain.com/#/bridge',
+    docs: 'https://docs.yumyumtoken.com/',
+    explorer: 'https://scan.pulsechain.com/',
+    infoLink: 'https://info.yumyumswap.com/#/pulse/',
+    label: 'PulseChain',
+    logoUrl: pulseLogo,
+    nativeCurrency: { name: 'Pulse', symbol: 'PLS', decimals: 18 },
+    color: '#A457FF',
+    backgroundColor: '#a457ff29',
   },
 }
 

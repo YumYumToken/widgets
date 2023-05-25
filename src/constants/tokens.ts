@@ -144,7 +144,56 @@ export const USDT_BASE_GOERLI_CHAIN = new Token(
   'USDT',
   'USDT'
 )
+export const USDC_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07',
+  6,
+  'USDC',
+  'USD Coin from Ethereum'
+)
 
+export const USDT_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f',
+  6,
+  'USDT',
+  'Tether USD from Ethereum'
+)
+export const DAI_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0xefD766cCb38EaF1dfd701853BFCe31359239F305',
+  18,
+  'DAI',
+  'Dai Stablecoin from Ethereum'
+)
+export const PLSX_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0x95B303987A60C71504D99Aa1b13B4DA07b0790ab',
+  18,
+  'PLSX',
+  'PulseX'
+)
+export const HEX_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39',
+  8,
+  'HEX',
+  'HEX'
+)
+export const WBTC_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0xb17D901469B9208B17d916112988A3FeD19b5cA1',
+  8,
+  'WBTC',
+  'Wrapped BTC from ethereum'
+)
+export const WETH_PULSE = new Token(
+  SupportedChainId.PULSE,
+  '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C',
+  18,
+  'WETH',
+  'Wrapped ETH from ethereum'
+)
 export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.MAINNET]: USDC_MAINNET,
   [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM,
@@ -161,6 +210,7 @@ export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.ROPSTEN]: USDC_ROPSTEN,
   [SupportedChainId.BNB]: USDC_BNB_CHAIN,
   [SupportedChainId.BASE_GOERLI]: USDC_BASE_GOERLI_CHAIN,
+  [SupportedChainId.PULSE]: USDC_PULSE,
 }
 export const DAI_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -444,7 +494,27 @@ class BnbChainNativeCurrency extends NativeCurrency {
     super(chainId, 18, 'BNB', 'BNB')
   }
 }
+function isPulseChain(chainId: number): chainId is SupportedChainId.PULSE {
+  return chainId === SupportedChainId.PULSE
+}
 
+class PulseChainNativeCurrency extends NativeCurrency {
+  equals(other: Currency): boolean {
+    return other.isNative && other.chainId === this.chainId
+  }
+
+  get wrapped(): Token {
+    if (!isPulseChain(this.chainId)) throw new Error('Not Pulse Chain')
+    const wrapped = WRAPPED_NATIVE_CURRENCY[this.chainId]
+    invariant(wrapped instanceof Token)
+    return wrapped
+  }
+
+  public constructor(chainId: number) {
+    if (!isPulseChain(chainId)) throw new Error('Not Pulse Chain')
+    super(chainId, 18, 'PLS', 'PULSE')
+  }
+}
 export const UNI: { [chainId: number]: Token } = {
   [SupportedChainId.MAINNET]: new Token(SupportedChainId.MAINNET, UNI_ADDRESS[1], 18, 'UNI', 'Uniswap'),
   [SupportedChainId.RINKEBY]: new Token(SupportedChainId.RINKEBY, UNI_ADDRESS[4], 18, 'UNI', 'Uniswap'),
@@ -513,6 +583,13 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WETH',
     'Wrapped Ether'
   ),
+  [SupportedChainId.PULSE]: new Token(
+    SupportedChainId.PULSE,
+    '0xA1077a294dDE1B09bB078844df40758a5D0f9a27',
+    18,
+    'WPLS',
+    'Wrapped Pulse'
+  ),
 }
 
 export function isCelo(chainId: number): chainId is SupportedChainId.CELO | SupportedChainId.CELO_ALFAJORES {
@@ -576,6 +653,8 @@ export function nativeOnChain(chainId: number): NativeCurrency | Token {
     nativeCurrency = getCeloNativeCurrency(chainId)
   } else if (isBnbChain(chainId)) {
     nativeCurrency = new BnbChainNativeCurrency(chainId)
+  } else if (isPulseChain(chainId)) {
+    nativeCurrency = new PulseChainNativeCurrency(chainId)
   } else {
     nativeCurrency = ExtendedEther.onChain(chainId)
   }
@@ -597,5 +676,7 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in SupportedCha
     [SupportedChainId.ROPSTEN]: USDC_ROPSTEN.address,
     [SupportedChainId.CELO]: PORTAL_USDC_CELO.address,
     [SupportedChainId.CELO_ALFAJORES]: USDC_CELO_ALFAJORES.address,
+    [SupportedChainId.BASE_GOERLI]: USDC_BASE_GOERLI_CHAIN.address,
+    [SupportedChainId.PULSE]: USDC_PULSE.address,
   },
 }
