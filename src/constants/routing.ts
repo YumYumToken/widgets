@@ -110,7 +110,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDT_PULSE,
     DAI_PULSE,
     WBTC_PULSE,
-    WETH_PULSE 
+    WETH_PULSE, 
   ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {
