@@ -1,6 +1,6 @@
-import { PERMIT2_ADDRESS } from '@uniswap/permit2-sdk'
-import { CurrencyAmount, Token } from '@yumyumswap/sdk-core'
 import { useWeb3React } from '@web3-react/core'
+import { CurrencyAmount, Token } from '@yumyumswap/sdk-core'
+import { PERMIT2_ADDRESS } from '@yumyumswap/universal-router-sdk'
 import { STANDARD_L1_BLOCK_TIME } from 'constants/chainInfo'
 import { useAddTransactionInfo, usePendingApproval } from 'hooks/transactions'
 import useInterval from 'hooks/useInterval'
@@ -40,8 +40,12 @@ export default function usePermit2Allowance(amount?: CurrencyAmount<Token>, spen
   const { account } = useWeb3React()
   const token = amount?.currency
 
-  const { tokenAllowance, isSyncing: isApprovalSyncing } = useTokenAllowance(token, account, PERMIT2_ADDRESS)
-  const updateTokenAllowance = useUpdateTokenAllowance(amount, PERMIT2_ADDRESS)
+  const { tokenAllowance, isSyncing: isApprovalSyncing } = useTokenAllowance(
+    token,
+    account,
+    PERMIT2_ADDRESS(token?.chainId)
+  )
+  const updateTokenAllowance = useUpdateTokenAllowance(amount, PERMIT2_ADDRESS(token?.chainId))
   const isApproved = useMemo(() => {
     if (!amount || !tokenAllowance) return false
     return tokenAllowance.greaterThan(amount) || tokenAllowance.equalTo(amount)
@@ -51,7 +55,7 @@ export default function usePermit2Allowance(amount?: CurrencyAmount<Token>, spen
   // This avoids re-prompting the user for an already-submitted but not-yet-observed approval, by marking it loading
   // until it has been re-observed. It wll sync immediately, because confirmation fast-forwards the block number.
   const [approvalState, setApprovalState] = useState(ApprovalState.SYNCED)
-  const isApprovalPending = Boolean(usePendingApproval(token, PERMIT2_ADDRESS))
+  const isApprovalPending = Boolean(usePendingApproval(token, PERMIT2_ADDRESS(token?.chainId)))
   const isApprovalLoading = approvalState !== ApprovalState.SYNCED || isApprovalPending
   useEffect(() => {
     if (isApprovalPending) {

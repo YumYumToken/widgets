@@ -4107,7 +4107,7 @@
     "@yumyumswap/swap-sdk" "^4.0.1"
     "@yumyumswap/v2-sdk" "^4.0.1"
 
-"@yumyumswap/sdk-core@^4.0.1", "@yumyumswap/sdk-core@^4.1.0":
+"@yumyumswap/sdk-core@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/sdk-core/-/sdk-core-4.0.1.tgz#05abb120bc1051afac9fe0910bce57544d61da97"
   integrity sha512-zfGxZuNWirEeCDIifND58VBgr5OhFjB0abZnO6LWs0P1nDwrUn2Sste2Mk7jhDArBE3lXzXQh0BGSEQ5FIPlMA==
@@ -4119,10 +4119,10 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/smart-order-router@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-4.0.1.tgz#eae27d854e6aa52490b309008223458625aa4f94"
-  integrity sha512-aAua4+qsmAZX+mKmeQMUTqHVL7J9gNNfFuDtVWV5YjKqhP7wkqNwag2pd6hFRrJxpvyOgnwdRxrr3H/PXGJ3UQ==
+"@yumyumswap/smart-order-router@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-4.0.3.tgz#a31e21adc4cc28695d6c1e3d7b68a02ef609782c"
+  integrity sha512-FEoGhYaNoQg5jqAzOmlSKOPa0eMD1KoV5yp9lU45cEfowy3KqUnvuqKAfxJebZnSZDZ6RC01WGNlmtsmE0KYlQ==
   dependencies:
     "@uniswap/default-token-list" "^2.0.0"
     "@uniswap/permit2-sdk" "^1.2.0"
@@ -4131,7 +4131,7 @@
     "@yumyumswap/swap-router-contracts" "^4.0.1"
     "@yumyumswap/swap-sdk" "^4.0.1"
     "@yumyumswap/universal-router" "^4.0.1"
-    "@yumyumswap/universal-router-sdk" "^4.0.1"
+    "@yumyumswap/universal-router-sdk" "^4.0.4"
     "@yumyumswap/v2-sdk" "^4.0.1"
     async-retry "^1.3.1"
     await-timeout "^1.1.1"
@@ -4172,21 +4172,21 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@yumyumswap/universal-router-sdk@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-4.0.1.tgz#9d0b367ab5f15f3483bb65ae7e2b725d7fe66d9d"
-  integrity sha512-KZMoK/BuS9WKVLWIlWYuq4NXAAylXoEXwst+sLRC2ElJbuqH0WZoZQN0ZfPh1WKNdwkqQavhucGLBTy16HC+cA==
+"@yumyumswap/universal-router-sdk@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-4.0.4.tgz#5a23346322adf1c373f879eeaddfe4a039872d31"
+  integrity sha512-GgXmMDfJcmkuOKnJ2ex8BFhOTr+RJ10QoyLQ/C653TO9R3pwXL4ehTkMAsUmLWRcPgrJIrjA9qNo2bV3UvwiBw==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
     "@yumyumswap/router-sdk" "^4.0.1"
-    "@yumyumswap/sdk-core" "^4.1.0"
+    "@yumyumswap/sdk-core" "^4.0.1"
     "@yumyumswap/swap-sdk" "^4.0.1"
-    "@yumyumswap/universal-router" "4.0.1"
+    "@yumyumswap/universal-router" "^4.0.1"
     "@yumyumswap/v2-sdk" "^4.0.1"
     bignumber.js "^9.0.2"
     ethers "^5.3.1"
 
-"@yumyumswap/universal-router@4.0.1", "@yumyumswap/universal-router@^4.0.1":
+"@yumyumswap/universal-router@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router/-/universal-router-4.0.1.tgz#6d7379bd2d8e0e86f7b94c30e9ca7ee105103815"
   integrity sha512-3P0AR4q3VuGIkcKqRv5bOjuvX6BJuzlgcP8JQxifN4gXy5am7YSh1HRrOuthZ91pJ3/E1fGK7oCWBY+OC3VabA==
