@@ -3535,16 +3535,6 @@
   resolved "https://registry.yarnpkg.com/@uniswap/conedison/-/conedison-1.5.3.tgz#2a2fc9ca848644f21944a2d087de54032a6acf93"
   integrity sha512-b8j2/0FzqLU4Qq+M+QEPGzacnZxNrzAHp7yoAWRvNJiFyLjBvcgfaT9ORS8rw17M8XBLWjh83faj5Kymc+62qw==
 
-"@uniswap/default-token-list@^2.0.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-2.2.0.tgz#d85a5c2520f57f4920bd989dfc9f01e1b701a567"
-  integrity sha512-vFPWoGzDjHP4i2l7yLaober/lZMmzOZXXirVF8XNyfNzRxgmYCWKO6SzKtfEUwxpd3/KUebgdK55II4Mnak62A==
-
-"@uniswap/default-token-list@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-9.0.0.tgz#35e070095ac24d24ef03877842c5d46807b59c87"
-  integrity sha512-a62uqv5ApULDVEXCOursXIaEoxP4MtlzdNSiQikYl1x9RfsUAZXl9dBtCo2d1Ne+iS1THic1oCJMshNtT9Z0EQ==
-
 "@uniswap/lib@^4.0.1-alpha":
   version "4.0.1-alpha"
   resolved "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz"
@@ -3562,11 +3552,6 @@
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/@uniswap/redux-multicall/-/redux-multicall-1.1.8.tgz#9cc5090305b10df68fb6162eb1ba7c2c762f5e7f"
   integrity sha512-LttOBVJuoRNC6N4MHsb5dF2GszLsj1ddPKKccEw1XOX17bGrFdm2A6GwKgES+v+Hj3lluDbQL6atcQtymP21iw==
-
-"@uniswap/token-lists@^1.0.0-beta.25", "@uniswap/token-lists@^1.0.0-beta.30":
-  version "1.0.0-beta.30"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.30.tgz#2103ca23b8007c59ec71718d34cdc97861c409e5"
-  integrity sha512-HwY2VvkQ8lNR6ks5NqQfAtg+4IZqz3KV1T8d2DlI8emIn9uMmaoFbIOg0nzjqAVKKnZSbMTRRtUoAh6mmjRvog==
 
 "@uniswap/v2-core@1.0.0":
   version "1.0.0"
@@ -4096,6 +4081,11 @@
     "@yumyumswap/contract-periphery" "^4.0.2"
     dotenv "^16.0.3"
 
+"@yumyumswap/default-token-list@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-4.0.2.tgz#15c6417caa49225a2096e39f9cb8bca0de8f4c85"
+  integrity sha512-0XeXK3L4rPqMB/chxlQayJCDvYjGW+MJswswlVpQJqUd++irerv5B6nMF1Hu144hzYEiTXaCwEuRmOUz9bKNPg==
+
 "@yumyumswap/router-sdk@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/router-sdk/-/router-sdk-4.0.1.tgz#fdbff43dee9986df4726e39afd5fb3495ae81ad2"
@@ -4119,17 +4109,17 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/smart-order-router@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-4.0.3.tgz#a31e21adc4cc28695d6c1e3d7b68a02ef609782c"
-  integrity sha512-FEoGhYaNoQg5jqAzOmlSKOPa0eMD1KoV5yp9lU45cEfowy3KqUnvuqKAfxJebZnSZDZ6RC01WGNlmtsmE0KYlQ==
+"@yumyumswap/smart-order-router@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-4.0.6.tgz#6c11b1a3a80f7133cb1df2fbdff27989a2e8f150"
+  integrity sha512-0QIBPJFbE6ZzSoK3I4NctzPsRkgg7jQ4xyqgrWC0AwEv2k1vrA+fHDL+Tud9MLEms3r5WOYl+vRlvIVs3cKuRQ==
   dependencies:
-    "@uniswap/default-token-list" "^2.0.0"
     "@uniswap/permit2-sdk" "^1.2.0"
-    "@uniswap/token-lists" "^1.0.0-beta.25"
+    "@yumyumswap/default-token-list" "^4.0.2"
     "@yumyumswap/router-sdk" "^4.0.1"
     "@yumyumswap/swap-router-contracts" "^4.0.1"
     "@yumyumswap/swap-sdk" "^4.0.1"
+    "@yumyumswap/token-lists" "^4.0.1"
     "@yumyumswap/universal-router" "^4.0.1"
     "@yumyumswap/universal-router-sdk" "^4.0.4"
     "@yumyumswap/v2-sdk" "^4.0.1"
@@ -4171,6 +4161,11 @@
     "@yumyumswap/swap-router-contracts" "^4.0.1"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
+
+"@yumyumswap/token-lists@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/token-lists/-/token-lists-4.0.1.tgz#760be4cd7cf7c13f697d1927ec2fd6a2f34f6ffd"
+  integrity sha512-0a7eyM8nmgThrsntrvrqYE4NJNRqiBACSIipop+p8WrhdTm1qmndl1rDw6l5GlNx+0AIGSzEUSEGkMOULa6V1A==
 
 "@yumyumswap/universal-router-sdk@^4.0.4":
   version "4.0.4"

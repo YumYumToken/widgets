@@ -1,4 +1,4 @@
-import { tokens } from '@uniswap/default-token-list'
+import { tokens } from '@yumyumswap/default-token-list'
 import { Currency, TradeType } from '@yumyumswap/sdk-core'
 import { Field, SupportedChainId, SwapWidget } from '@yumyumswap/widgets'
 import Row from 'components/Row'

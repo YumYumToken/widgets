@@ -1,5 +1,5 @@
-import { tokens } from '@uniswap/default-token-list'
-import { TokenInfo } from '@uniswap/token-lists'
+import { tokens } from '@yumyumswap/default-token-list'
+import { TokenInfo } from '@yumyumswap/token-lists'
 import {
   darkTheme,
   defaultTheme,

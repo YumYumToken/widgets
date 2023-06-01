@@ -1,5 +1,5 @@
 import { Currency, CurrencyAmount, Token } from '@yumyumswap/sdk-core'
-import { TokenInfo } from '@uniswap/token-lists'
+import { TokenInfo } from '@yumyumswap/token-lists'
 import { useMemo } from 'react'
 
 /** Sorts currency amounts (descending). */

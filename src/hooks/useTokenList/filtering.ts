@@ -1,5 +1,5 @@
 import { NativeCurrency, Token } from '@yumyumswap/sdk-core'
-import { TokenInfo } from '@uniswap/token-lists'
+import { TokenInfo } from '@yumyumswap/token-lists'
 import { isAddress } from 'utils'
 
 const alwaysTrue = () => true

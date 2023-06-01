@@ -8,7 +8,7 @@ export type { Provider as EthersProvider } from '@ethersproject/abstract-provide
 export type { JsonRpcProvider } from '@ethersproject/providers'
 export type { Currency } from '@yumyumswap/sdk-core'
 export { TradeType } from '@yumyumswap/sdk-core'
-export type { TokenInfo } from '@uniswap/token-lists'
+export type { TokenInfo } from '@yumyumswap/token-lists'
 export type { Provider as Eip1193Provider } from '@web3-react/types'
 export type { DialogOptions, DialogWidgetProps } from 'components/Dialog'
 export { DialogAnimationType } from 'components/Dialog'

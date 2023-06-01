@@ -1,6 +1,6 @@
 import 'jest-environment-hardhat'
 
-import tokenList from '@uniswap/default-token-list'
+import tokenList from '@yumyumswap/default-token-list'
 import { Currency, CurrencyAmount, Percent } from '@yumyumswap/sdk-core'
 import { dynamicActivate } from 'i18n'
 import fetch from 'jest-fetch-mock'
