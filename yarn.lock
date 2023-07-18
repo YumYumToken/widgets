@@ -4167,6 +4167,11 @@
   resolved "https://registry.yarnpkg.com/@yumyumswap/token-lists/-/token-lists-4.0.1.tgz#760be4cd7cf7c13f697d1927ec2fd6a2f34f6ffd"
   integrity sha512-0a7eyM8nmgThrsntrvrqYE4NJNRqiBACSIipop+p8WrhdTm1qmndl1rDw6l5GlNx+0AIGSzEUSEGkMOULa6V1A==
 
+"@yumyumswap/token-lists@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/token-lists/-/token-lists-5.0.1.tgz#7e8c4669fd32f537e3941dff42328d95a4fff5cf"
+  integrity sha512-ogXCTTM6qDVzZ7cgXCMZz102xorX/giCJeapxn673t7QhbGyGLViOzD2tp/AUNP7E5MGuwCTAH+SwoMp3wnR2A==
+
 "@yumyumswap/universal-router-sdk@^4.0.4":
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-4.0.4.tgz#5a23346322adf1c373f879eeaddfe4a039872d31"

@@ -70,7 +70,7 @@
     "@yumyumswap/router-sdk": "^4.0.1",
     "@yumyumswap/sdk-core": "^4.0.1",
     "@yumyumswap/smart-order-router": "^4.0.6",
-    "@yumyumswap/token-lists": "^4.0.1",
+    "@yumyumswap/token-lists": "^5.0.1",
     "@yumyumswap/universal-router-sdk": "^4.0.4",
     "@yumyumswap/v2-sdk": "^4.0.1",
     "@yumyumswap/swap-sdk": "^4.0.1",
