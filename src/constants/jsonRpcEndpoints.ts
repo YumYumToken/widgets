@@ -91,6 +91,10 @@ export const JSON_RPC_FALLBACK_ENDPOINTS: Record<SupportedChainId, string[]> = {
     'https://goerli.base.org',
     'https://base-goerli.public.blastapi.io',
   ],
+  [SupportedChainId.BASE]: [
+    // "Safe" URLs
+    'https://developer-access-mainnet.base.org',
+  ],
   [SupportedChainId.PULSE]: [
     // "Safe" URLs
     'https://rpc.pulsechain.com',

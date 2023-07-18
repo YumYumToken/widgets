@@ -4059,7 +4059,26 @@
   dependencies:
     dotenv "^16.0.3"
 
-"@yumyumswap/contract-periphery@4.0.2", "@yumyumswap/contract-periphery@^4.0.2":
+"@yumyumswap/contract-core@5.0.1", "@yumyumswap/contract-core@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-5.0.1.tgz#b9359674b335eef60525493ec60a696a3841208f"
+  integrity sha512-Lso9DJeIlD7+ve9J4BO1XNW1RAXN39FLQZArBCl7HjxGcDN9QfsvDmFV20r3Bt5eyKpQSapjkIz/5XQfr9MdFQ==
+  dependencies:
+    dotenv "^16.0.3"
+
+"@yumyumswap/contract-periphery@5.0.2", "@yumyumswap/contract-periphery@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-5.0.2.tgz#3c4fa35f584533c5f40de9d1aa6c04bc1e155adc"
+  integrity sha512-6ug6deF3X+6rEVlnYYZ0fmCL/Ra6jIMqORfyrKKArbXNHH81G0dlDzlTQvQ84/2LK61rf2GQ4YWjxZsY35uA6Q==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "1.0.1"
+    "@yumyumswap/contract-core" "5.0.1"
+    base64-sol "1.0.1"
+    dotenv "^16.0.3"
+
+"@yumyumswap/contract-periphery@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-4.0.2.tgz#e8ebcb5c58435020047c9ce66e8ff79e18c940cf"
   integrity sha512-+9s2muTj8eabniseyeJ+VXNoNjkVzPlPzCNQrZ8q8swg41ikDVc+RYHm82fGtP9W1aiSg+1ZRJyIdvi5O08v3g==
@@ -4071,14 +4090,14 @@
     base64-sol "1.0.1"
     dotenv "^16.0.3"
 
-"@yumyumswap/contract-staker@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-4.0.1.tgz#3051aa05d1f13f0d44a67e1444128151fbefb6ed"
-  integrity sha512-kc8aYXbLvP6RQU2ieERVdQOz/QjgSl/g1aN+7RtrZy5nHX8eqAWVBYYukdWh6uQZvHakc8e/2i3Se7o80fG2oA==
+"@yumyumswap/contract-staker@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-5.0.1.tgz#1843308a0aaf6c0765b37e682f651a3fdf40cf9d"
+  integrity sha512-OsGeJlWOWt071gq1f9jShtddVwHbWWG6pFozcfATj25Nujo6vlMXe3jRdddpZaJZUe6fwe3AyhX7wTMPMir0+Q==
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@yumyumswap/contract-core" "^4.0.1"
-    "@yumyumswap/contract-periphery" "^4.0.2"
+    "@yumyumswap/contract-core" "^5.0.1"
+    "@yumyumswap/contract-periphery" "^5.0.2"
     dotenv "^16.0.3"
 
 "@yumyumswap/default-token-list@^4.0.2":
@@ -4086,21 +4105,26 @@
   resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-4.0.2.tgz#15c6417caa49225a2096e39f9cb8bca0de8f4c85"
   integrity sha512-0XeXK3L4rPqMB/chxlQayJCDvYjGW+MJswswlVpQJqUd++irerv5B6nMF1Hu144hzYEiTXaCwEuRmOUz9bKNPg==
 
-"@yumyumswap/router-sdk@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/router-sdk/-/router-sdk-4.0.1.tgz#fdbff43dee9986df4726e39afd5fb3495ae81ad2"
-  integrity sha512-aNu2xvtsNbAFFAyQ6/4cuGokR+8nrS0Ktfojw/NAslNTIeU5cy8BwyidYWe98b7UJSMS4ZYBEKwNtTTHCHwM6Q==
+"@yumyumswap/default-token-list@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-5.0.1.tgz#e0bf021f5d7981bd5b9f571b6bdd2b03ab57d13d"
+  integrity sha512-aNFkEO99S3TpnXfI1dUTxUZ/GEUhXmLxtQEvslAHeUwnzuDC7whuFobP+f4h7U1K+pI8ATf6WVvzomFU5pJLXg==
+
+"@yumyumswap/router-sdk@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/router-sdk/-/router-sdk-5.0.1.tgz#d54c053f02f1494b70e88d3649ac0f8bb1ebdd6a"
+  integrity sha512-h8+nuuwSpsAa6W7F+Zm12Fw46WRJ/PS+1v1qL0R9vBQJHpy6mGaehgHPOJxrZDT3LTd7PfOHt+bbJGCv0RpADQ==
   dependencies:
     "@ethersproject/abi" "^5.5.0"
-    "@yumyumswap/sdk-core" "^4.0.1"
-    "@yumyumswap/swap-router-contracts" "^4.0.1"
-    "@yumyumswap/swap-sdk" "^4.0.1"
-    "@yumyumswap/v2-sdk" "^4.0.1"
+    "@yumyumswap/sdk-core" "^5.0.2"
+    "@yumyumswap/swap-router-contracts" "^5.0.1"
+    "@yumyumswap/swap-sdk" "^5.0.1"
+    "@yumyumswap/v2-sdk" "^5.0.1"
 
-"@yumyumswap/sdk-core@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/sdk-core/-/sdk-core-4.0.1.tgz#05abb120bc1051afac9fe0910bce57544d61da97"
-  integrity sha512-zfGxZuNWirEeCDIifND58VBgr5OhFjB0abZnO6LWs0P1nDwrUn2Sste2Mk7jhDArBE3lXzXQh0BGSEQ5FIPlMA==
+"@yumyumswap/sdk-core@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/sdk-core/-/sdk-core-5.0.2.tgz#29b18faba969fe84cbc155afaa44cc66a363af53"
+  integrity sha512-19ccJMtZGzcknWDEwDfL+vZcUinhORnIF80FgtSD1v19xS0o6m/rQFzosW3I5fZE6wxb+1jXtc46yKLA56Yocw==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -4109,20 +4133,20 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/smart-order-router@^4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-4.0.6.tgz#6c11b1a3a80f7133cb1df2fbdff27989a2e8f150"
-  integrity sha512-0QIBPJFbE6ZzSoK3I4NctzPsRkgg7jQ4xyqgrWC0AwEv2k1vrA+fHDL+Tud9MLEms3r5WOYl+vRlvIVs3cKuRQ==
+"@yumyumswap/smart-order-router@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-5.0.1.tgz#96fda999cdf1588eef9b82860adcc833407d4876"
+  integrity sha512-upV2rLwhPWmSKzehTqS5S12+p548g10KWZ9kVwKod+ZIkHbJ+woTrXI0mr4tmYhRDvwE1wK1e8/ixAiKxnnL5A==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
-    "@yumyumswap/default-token-list" "^4.0.2"
-    "@yumyumswap/router-sdk" "^4.0.1"
-    "@yumyumswap/swap-router-contracts" "^4.0.1"
-    "@yumyumswap/swap-sdk" "^4.0.1"
-    "@yumyumswap/token-lists" "^4.0.1"
-    "@yumyumswap/universal-router" "^4.0.1"
-    "@yumyumswap/universal-router-sdk" "^4.0.4"
-    "@yumyumswap/v2-sdk" "^4.0.1"
+    "@yumyumswap/default-token-list" "^5.0.1"
+    "@yumyumswap/router-sdk" "^5.0.1"
+    "@yumyumswap/swap-router-contracts" "^5.0.1"
+    "@yumyumswap/swap-sdk" "^5.0.1"
+    "@yumyumswap/token-lists" "^5.0.1"
+    "@yumyumswap/universal-router" "^5.0.1"
+    "@yumyumswap/universal-router-sdk" "^5.0.1"
+    "@yumyumswap/v2-sdk" "^5.0.1"
     async-retry "^1.3.1"
     await-timeout "^1.1.1"
     axios "^0.21.1"
@@ -4136,68 +4160,68 @@
     node-cache "^5.1.2"
     stats-lite "^2.2.0"
 
-"@yumyumswap/swap-router-contracts@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-4.0.1.tgz#4ae2163779f0ecd9810a217463099218aad791f4"
-  integrity sha512-GKxti/N93HW/6bqZnVChP3LkS9HfZ/Zms2fRs+dvHIIHng2fBnvWhfKDl5JgCFVhhEZx1yguAzRr8HsdJF8nVA==
+"@yumyumswap/swap-router-contracts@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-5.0.1.tgz#555b6ed42f0b2e21e3237aa3b898a0f639bbd72a"
+  integrity sha512-dlC+A/H+2skWxYZaiQGex59ZrMRIUdPk6UO6bkr/wtWjLRL1s3Xnol0WvLXcAV5CEjT+H0ZAHTeg+U4PMJhrTA==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/v2-core" "1.0.1"
-    "@yumyumswap/contract-core" "^4.0.1"
-    "@yumyumswap/contract-periphery" "4.0.2"
+    "@yumyumswap/contract-core" "^5.0.1"
+    "@yumyumswap/contract-periphery" "5.0.2"
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@yumyumswap/swap-sdk@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-4.0.1.tgz#f17dc21d592b6d3ed87896a71dc414a8d8ee1dea"
-  integrity sha512-s92H18YlF1YpQEAD52Udcm8vcduifMVP1zudBtep9+NwRiWK3+GgyVRb4q03tsJJ9oGXGZDL63oToGzHRe0LCw==
+"@yumyumswap/swap-sdk@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-5.0.1.tgz#31112a73dac8efb4dfe7661022d6dfe8f6d484af"
+  integrity sha512-ADtvAwjDBVocKWv/EVIS6HOm4ZC61IJ4DEmoMYXMHopnHKUq4dCRZcs+kje1scPwJMEcjhvikmlPm76c/bv2rA==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
-    "@yumyumswap/contract-periphery" "^4.0.2"
-    "@yumyumswap/contract-staker" "^4.0.1"
-    "@yumyumswap/sdk-core" "^4.0.1"
-    "@yumyumswap/swap-router-contracts" "^4.0.1"
+    "@yumyumswap/contract-periphery" "^5.0.2"
+    "@yumyumswap/contract-staker" "^5.0.1"
+    "@yumyumswap/sdk-core" "^5.0.2"
+    "@yumyumswap/swap-router-contracts" "^5.0.1"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@yumyumswap/token-lists@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/token-lists/-/token-lists-4.0.1.tgz#760be4cd7cf7c13f697d1927ec2fd6a2f34f6ffd"
-  integrity sha512-0a7eyM8nmgThrsntrvrqYE4NJNRqiBACSIipop+p8WrhdTm1qmndl1rDw6l5GlNx+0AIGSzEUSEGkMOULa6V1A==
+"@yumyumswap/token-lists@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/token-lists/-/token-lists-5.0.1.tgz#7e8c4669fd32f537e3941dff42328d95a4fff5cf"
+  integrity sha512-ogXCTTM6qDVzZ7cgXCMZz102xorX/giCJeapxn673t7QhbGyGLViOzD2tp/AUNP7E5MGuwCTAH+SwoMp3wnR2A==
 
-"@yumyumswap/universal-router-sdk@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-4.0.4.tgz#5a23346322adf1c373f879eeaddfe4a039872d31"
-  integrity sha512-GgXmMDfJcmkuOKnJ2ex8BFhOTr+RJ10QoyLQ/C653TO9R3pwXL4ehTkMAsUmLWRcPgrJIrjA9qNo2bV3UvwiBw==
+"@yumyumswap/universal-router-sdk@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router-sdk/-/universal-router-sdk-5.0.1.tgz#15ab706e469c098a8052e8f13310bd04b581e24f"
+  integrity sha512-w7i+mW6oDcVeRrNa3x5wCC5zvyPE6NgF/jQm2V5tlORQL5o6QvetsVHfprkde0USorhJQ2hitXN9z04xJTczIw==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
-    "@yumyumswap/router-sdk" "^4.0.1"
-    "@yumyumswap/sdk-core" "^4.0.1"
-    "@yumyumswap/swap-sdk" "^4.0.1"
-    "@yumyumswap/universal-router" "^4.0.1"
-    "@yumyumswap/v2-sdk" "^4.0.1"
+    "@yumyumswap/router-sdk" "^5.0.1"
+    "@yumyumswap/sdk-core" "^5.0.2"
+    "@yumyumswap/swap-sdk" "^5.0.1"
+    "@yumyumswap/universal-router" "^5.0.1"
+    "@yumyumswap/v2-sdk" "^5.0.1"
     bignumber.js "^9.0.2"
     ethers "^5.3.1"
 
-"@yumyumswap/universal-router@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router/-/universal-router-4.0.1.tgz#6d7379bd2d8e0e86f7b94c30e9ca7ee105103815"
-  integrity sha512-3P0AR4q3VuGIkcKqRv5bOjuvX6BJuzlgcP8JQxifN4gXy5am7YSh1HRrOuthZ91pJ3/E1fGK7oCWBY+OC3VabA==
+"@yumyumswap/universal-router@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/universal-router/-/universal-router-5.0.1.tgz#73d444d2265e7463904b3545363b8381b610d365"
+  integrity sha512-4tX+YQxhYubibQAOUuEa2f1dupcAZh3yTpHNUdOxNHePezyuOzLqe5xGvUHHF5Kyvxg6uLgv08cWNDnLHtO+fA==
   dependencies:
     "@openzeppelin/contracts" "4.7.0"
     "@uniswap/v2-core" "1.0.1"
-    "@yumyumswap/contract-core" "4.0.1"
+    "@yumyumswap/contract-core" "5.0.1"
 
-"@yumyumswap/v2-sdk@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/v2-sdk/-/v2-sdk-4.0.1.tgz#8f58ee568bc534f0c2521071c269df58d34bffc6"
-  integrity sha512-2SS72geXZV3oTjFmPppC4BO5nlmPadcH9GjLgOVMLF062mZ8WI3T5H8DaHqTNoybjRBn/W0QBEKwhm72V8vZCw==
+"@yumyumswap/v2-sdk@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/v2-sdk/-/v2-sdk-5.0.1.tgz#4314ea89730177a0a3d6d9a450cd87175855a1b2"
+  integrity sha512-ZlucYD4E13h4/qaJxrnFpZQXMYTZIjBmbdaG/8/J4amO8dtxQ5JWnune6KRvCdLCBKx9UvKTmv9vxEDKe+1FJQ==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@yumyumswap/sdk-core" "^4.0.1"
+    "@yumyumswap/sdk-core" "^5.0.2"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 

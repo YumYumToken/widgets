@@ -144,6 +144,20 @@ export const USDT_BASE_GOERLI_CHAIN = new Token(
   'USDT',
   'USDT'
 )
+export const USDC_BASE_CHAIN = new Token(
+  SupportedChainId.BASE,
+  '0xE5417A52d9535f0069058324958Bf4d89E2e38A1',
+  18,
+  'USDC',
+  'USDC'
+)
+export const USDT_BASE_CHAIN = new Token(
+  SupportedChainId.BASE,
+  '0x4528BE9055935C213020085656AD3c1E99BF1f32',
+  18,
+  'USDT',
+  'USDT'
+)
 export const USDC_PULSE = new Token(
   SupportedChainId.PULSE,
   '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07',
@@ -210,6 +224,7 @@ export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.ROPSTEN]: USDC_ROPSTEN,
   [SupportedChainId.BNB]: USDC_BNB_CHAIN,
   [SupportedChainId.BASE_GOERLI]: USDC_BASE_GOERLI_CHAIN,
+  [SupportedChainId.BASE]: USDC_BASE_CHAIN,
   [SupportedChainId.PULSE]: USDC_PULSE,
 }
 export const DAI_POLYGON = new Token(
@@ -583,6 +598,13 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WETH',
     'Wrapped Ether'
   ),
+  [SupportedChainId.BASE]: new Token(
+    SupportedChainId.BASE,
+    '0x4200000000000000000000000000000000000006',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
   [SupportedChainId.PULSE]: new Token(
     SupportedChainId.PULSE,
     '0xA1077a294dDE1B09bB078844df40758a5D0f9a27',
@@ -677,6 +699,7 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in SupportedCha
     [SupportedChainId.CELO]: PORTAL_USDC_CELO.address,
     [SupportedChainId.CELO_ALFAJORES]: USDC_CELO_ALFAJORES.address,
     [SupportedChainId.BASE_GOERLI]: USDC_BASE_GOERLI_CHAIN.address,
+    [SupportedChainId.BASE]: USDC_BASE_CHAIN.address,
     [SupportedChainId.PULSE]: USDC_PULSE.address,
   },
 }
