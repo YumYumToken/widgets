@@ -4109,10 +4109,10 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/smart-order-router@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-5.0.2.tgz#07e6a11300998a80bede269a7b51909d098cb423"
-  integrity sha512-Jg7/Zf2Dxc+hW3iwzPy7OSxvN8vqTLjuUJ7HVgq5oxpqWBlauPOP0d6ZBiJRG0xqbaUkUqD/wuGSSlOvz68O3w==
+"@yumyumswap/smart-order-router@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-5.0.3.tgz#3f1ce33ea3443d75ab06aec1620509602e1b7931"
+  integrity sha512-0JFnRPVmK+QsMLJylxtMyyVvVyhZPeF2QRhSDNfmIQWTeWq4vsBlIY4GcrypgVGRAkA4YF4oDCKf+jZjXrkrpw==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
     "@yumyumswap/default-token-list" "^5.0.2"
