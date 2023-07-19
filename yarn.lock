@@ -4052,13 +4052,6 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
-"@yumyumswap/contract-core@4.0.1", "@yumyumswap/contract-core@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-4.0.1.tgz#a43db2a33c0ed5369e693581eaf1dcbe257cbf68"
-  integrity sha512-wNsf1SHs0mxb7ErI25Tou1yayJe3Ds6qm/uyuJXgodsE3AZYEsjUTuSYvS5tP+/Npc6NYnEKNLixLOeIQvwg6Q==
-  dependencies:
-    dotenv "^16.0.3"
-
 "@yumyumswap/contract-core@5.0.1", "@yumyumswap/contract-core@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-5.0.1.tgz#b9359674b335eef60525493ec60a696a3841208f"
@@ -4078,18 +4071,6 @@
     base64-sol "1.0.1"
     dotenv "^16.0.3"
 
-"@yumyumswap/contract-periphery@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-4.0.2.tgz#e8ebcb5c58435020047c9ce66e8ff79e18c940cf"
-  integrity sha512-+9s2muTj8eabniseyeJ+VXNoNjkVzPlPzCNQrZ8q8swg41ikDVc+RYHm82fGtP9W1aiSg+1ZRJyIdvi5O08v3g==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@yumyumswap/contract-core" "4.0.1"
-    base64-sol "1.0.1"
-    dotenv "^16.0.3"
-
 "@yumyumswap/contract-staker@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-5.0.1.tgz#1843308a0aaf6c0765b37e682f651a3fdf40cf9d"
@@ -4100,15 +4081,10 @@
     "@yumyumswap/contract-periphery" "^5.0.2"
     dotenv "^16.0.3"
 
-"@yumyumswap/default-token-list@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-4.0.2.tgz#15c6417caa49225a2096e39f9cb8bca0de8f4c85"
-  integrity sha512-0XeXK3L4rPqMB/chxlQayJCDvYjGW+MJswswlVpQJqUd++irerv5B6nMF1Hu144hzYEiTXaCwEuRmOUz9bKNPg==
-
-"@yumyumswap/default-token-list@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-5.0.1.tgz#e0bf021f5d7981bd5b9f571b6bdd2b03ab57d13d"
-  integrity sha512-aNFkEO99S3TpnXfI1dUTxUZ/GEUhXmLxtQEvslAHeUwnzuDC7whuFobP+f4h7U1K+pI8ATf6WVvzomFU5pJLXg==
+"@yumyumswap/default-token-list@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-5.0.2.tgz#26c23c6e5289aa195308ff578e0698f026baf248"
+  integrity sha512-HWbOITPN5w6ih7sADUDppWqnLCN3JHVpqulVFp/2VA9qj0EUTuWTxZ547Iv0qwMTm34C96iFPZKuUYfYmy5eZw==
 
 "@yumyumswap/router-sdk@^5.0.1":
   version "5.0.1"
@@ -4133,13 +4109,13 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/smart-order-router@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-5.0.1.tgz#96fda999cdf1588eef9b82860adcc833407d4876"
-  integrity sha512-upV2rLwhPWmSKzehTqS5S12+p548g10KWZ9kVwKod+ZIkHbJ+woTrXI0mr4tmYhRDvwE1wK1e8/ixAiKxnnL5A==
+"@yumyumswap/smart-order-router@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/smart-order-router/-/smart-order-router-5.0.2.tgz#07e6a11300998a80bede269a7b51909d098cb423"
+  integrity sha512-Jg7/Zf2Dxc+hW3iwzPy7OSxvN8vqTLjuUJ7HVgq5oxpqWBlauPOP0d6ZBiJRG0xqbaUkUqD/wuGSSlOvz68O3w==
   dependencies:
     "@uniswap/permit2-sdk" "^1.2.0"
-    "@yumyumswap/default-token-list" "^5.0.1"
+    "@yumyumswap/default-token-list" "^5.0.2"
     "@yumyumswap/router-sdk" "^5.0.1"
     "@yumyumswap/swap-router-contracts" "^5.0.1"
     "@yumyumswap/swap-sdk" "^5.0.1"
