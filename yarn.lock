@@ -4082,9 +4082,9 @@
     dotenv "^16.0.3"
 
 "@yumyumswap/default-token-list@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-5.0.2.tgz#26c23c6e5289aa195308ff578e0698f026baf248"
-  integrity sha512-HWbOITPN5w6ih7sADUDppWqnLCN3JHVpqulVFp/2VA9qj0EUTuWTxZ547Iv0qwMTm34C96iFPZKuUYfYmy5eZw==
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/default-token-list/-/default-token-list-5.0.3.tgz#794aaafe50495884bb5ca204acf8c63d28cf4155"
+  integrity sha512-Y3eLD58Mtj37ED5aE0hXpg0UfBe5ECx6rdhfYMv8ESOsJzN6QG8rHpf1TGMB+x/8BNqwr1EAK4nCH2baABROqA==
 
 "@yumyumswap/router-sdk@^5.0.1":
   version "5.0.1"
